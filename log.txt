@@ -1,0 +1,20 @@
+commit 003c930478e6b4e0c0daa4814d0a83f9cd520a3a
+Merge: 81626b4 6801658
+Author: NGUYEN LUAT GIA KHOI <57819211+lgk1910@users.noreply.github.com>
+Date:   Sat Mar 26 10:49:27 2022 +0700
+
+    Merge pull request #1 from PhamToanDoMath/toan
+    
+    Create README.md
+
+commit 68016587439a3a744c867fdf8dbf6e613fa35612
+Author: PhamToanDoMath <71207354+PhamToanDoMath@users.noreply.github.com>
+Date:   Sat Mar 26 10:34:37 2022 +0700
+
+    Create README.md
+
+commit 81626b4e70b0bda37eb10a57f8ea1d87e7749dc6
+Author: NGUYEN LUAT GIA KHOI <xuongrongda1910@gmail.com>
+Date:   Fri Mar 25 16:30:22 2022 +0700
+
+    Add api and makecode

@@ -8,7 +8,7 @@ AIO_FEED_IDS = ["light-sensor", "button"]
 
 
 AIO_USERNAME = "lgk1910"
-AIO_KEY = "aio_tpDu028wpIR7NbYaerRdA9BX7Hgf"
+AIO_KEY = "aio_XfMZ135ae2vR7SJ0yeLECjvCsA2P"
 
 def  connected(client):
     print("Ket noi thanh cong...")
@@ -58,11 +58,13 @@ def processData(data):
     data = data.replace("#", "")
     splitData = data.split(":")
     try:
-        if splitData[1] == "LIGHT":
-            client.publish("light-sensor", splitData[2])
-        elif splitData[1] == "BUTT":
+        if splitData[1] == "LIGHT" and len(splitData)==3:
+            # client.publish("light-sensor", splitData[2])
+            pass
+        elif splitData[1] == "BUTT" and len(splitData)==3:
             print(splitData)
             client.publish("button", splitData[2])
+            print('hereeee')
     except:
         pass
 
