@@ -1,3 +1,21 @@
+commit ab57fc5d3e6045ca9385389ca8bcd9619c3b45f6
+Author: NGUYEN LUAT GIA KHOI <xuongrongda1910@gmail.com>
+Date:   Thu Mar 31 12:15:52 2022 +0700
+
+    update gateway
+
+commit dd2c848e35206f4848f7ac248366114c83eeb900
+Author: Trinh Pham <phkhanhtrinh23@gmail.com>
+Date:   Thu Mar 31 11:40:14 2022 +0700
+
+    modify api.py
+
+commit 276c9cbcd71091196d738a8a610a55420fb128ce
+Author: Minh Huan <huanpham05@gmail.com>
+Date:   Sun Mar 27 09:33:24 2022 +0700
+
+    Update README.md
+
 commit 003c930478e6b4e0c0daa4814d0a83f9cd520a3a
 Merge: 81626b4 6801658
 Author: NGUYEN LUAT GIA KHOI <57819211+lgk1910@users.noreply.github.com>
