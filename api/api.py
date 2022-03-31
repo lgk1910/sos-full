@@ -4,11 +4,11 @@ import time
 import threading
 from queue import Empty, Queue
 from flask import Flask, request, json
-import io
+# import io
 from sign2text import SOSign
 from keras import backend as K
 from utils.io_handler import NumpyEncoder, filename_gen
-import argparse
+# import argparse
 from flask_cors import CORS
 
 # Argument parsing
