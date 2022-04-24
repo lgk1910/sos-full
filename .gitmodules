@@ -1,0 +1,3 @@
+[submodule "MQTT-App-Flutter"]
+	path = MQTT-App-Flutter
+	url = https://github.com/PhamToanDoMath/MQTT-App-Flutter.git
