@@ -8,7 +8,7 @@ AIO_FEED_IDS = ["light-sensor", "button"]
 
 
 AIO_USERNAME = "lgk1910"
-AIO_KEY = "aio_XfMZ135ae2vR7SJ0yeLECjvCsA2P"
+AIO_KEY = "aio_Wlgt51hKv6xxyawLObKPIPYAIRKY"
 
 def  connected(client):
     print("Ket noi thanh cong...")
