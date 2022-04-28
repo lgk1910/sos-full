@@ -1,3 +1,6 @@
 [submodule "MQTT-App-Flutter"]
 	path = MQTT-App-Flutter
 	url = https://github.com/PhamToanDoMath/MQTT-App-Flutter.git
+[submodule "sosign"]
+	path = sosign
+	url = https://github.com/lgk1910/sos-full.git
