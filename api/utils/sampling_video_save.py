@@ -26,11 +26,14 @@ def read_video(num_selected_frames, input_video = 0, sample = 1):
     
     #baseline sequence 
     y = math.floor((total_frames - z*(n-1)) / 2)
+    if z == 0:
+        z = 1
     base_seq = range(y, y+(n-1)*z, z) # start = y, stop = y+(n-1)z, step = z
     result_arr = []
     
     folder_names = []
     for i in range(sample):
+        print('yeahhhh')
         sample_folder = str(os.path.splitext(os.path.basename(input_video))[0]) + '_sample_' + str(i)
         sample_folder = os.path.join('sample_folders', sample_folder)
         if os.path.exists(sample_folder):
@@ -40,7 +43,10 @@ def read_video(num_selected_frames, input_video = 0, sample = 1):
         
         cap.set(cv2.CAP_PROP_POS_FRAMES, 0)
         
-        random_seq = [np.random.randint(1, z) for j in range(n+1)] 
+        if z < 2:
+            random_seq = [1] * range(n+1)
+        else:
+            random_seq = [np.random.randint(1, z) for j in range(n+1)] 
         result_seq = [sum(x) for x in zip(base_seq, random_seq)]
             
         for frame_pos in result_seq:        
