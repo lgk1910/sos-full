@@ -7,8 +7,8 @@ from  Adafruit_IO import  MQTTClient
 AIO_FEED_IDS = ["light-sensor", "button"]
 
 
-AIO_USERNAME = "lgk1910"
-AIO_KEY = "aio_Wlgt51hKv6xxyawLObKPIPYAIRKY"
+AIO_USERNAME = "toanFam"
+AIO_KEY = "aio_xeuA19S6HyhhSflp0nZRFOauHb8z"
 
 def  connected(client):
     print("Ket noi thanh cong...")
@@ -59,12 +59,12 @@ def processData(data):
     splitData = data.split(":")
     try:
         if splitData[1] == "LIGHT" and len(splitData)==3:
-            # client.publish("light-sensor", splitData[2])
-            pass
+            client.publish("light-sensor", splitData[2])
+            # pass
         elif splitData[1] == "BUTT" and len(splitData)==3:
             print(splitData)
             client.publish("button", splitData[2])
-            print('hereeee')
+            # print('hereeee')
     except:
         pass
 
