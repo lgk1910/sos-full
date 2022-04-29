@@ -4,11 +4,11 @@ import time
 import  sys
 from  Adafruit_IO import  MQTTClient
 
-AIO_FEED_IDS = ["light-sensor", "button"]
+AIO_FEED_IDS = ["light-sensor", "button", "buzzer"]
 
 
-AIO_USERNAME = "toanFam"
-AIO_KEY = "aio_xeuA19S6HyhhSflp0nZRFOauHb8z"
+AIO_USERNAME = "lgk1910"
+AIO_KEY = "aio_bKuo19obeaSA18xOd0VFwACcyVl8"
 
 def  connected(client):
     print("Ket noi thanh cong...")
