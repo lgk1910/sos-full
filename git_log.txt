@@ -1,0 +1,125 @@
+commit 945768928a4f28d1ccc35393489bea193ddf68ae
+Author: Minh Huan <huanpham05@gmail.com>
+Date:   Fri Apr 29 09:28:06 2022 +0700
+
+    super update gateway.py
+
+commit 4b496b689b1ad300694b530316f3578903ea4848
+Author: Minh Huan <huanpham05@gmail.com>
+Date:   Fri Apr 29 09:11:27 2022 +0700
+
+    Update gateway.py
+
+commit 084bec4b520cd3886a7e04142784f6a1141f2003
+Author: NGUYEN LUAT GIA KHOI <xuongrongda1910@gmail.com>
+Date:   Thu Apr 28 23:16:56 2022 +0700
+
+    Add Microbit code
+
+commit 52729656c30d68a24376d721ba07900886c7f476
+Author: NGUYEN LUAT GIA KHOI <xuongrongda1910@gmail.com>
+Date:   Thu Apr 28 23:12:58 2022 +0700
+
+    Update api
+
+commit 430e4dab11ed63867d7bd88ced0b3cfc565fff02
+Merge: ff577a9 06693a8
+Author: NGUYEN LUAT GIA KHOI <57819211+lgk1910@users.noreply.github.com>
+Date:   Thu Apr 28 23:11:01 2022 +0700
+
+    Merge pull request #3 from PhamToanDoMath/toan
+    
+    Toan
+
+commit ff577a9c481859eb8f1d3a6f12d7a45381f7bb71
+Merge: 8b80b69 4f2043e
+Author: NGUYEN LUAT GIA KHOI <57819211+lgk1910@users.noreply.github.com>
+Date:   Thu Apr 28 23:10:47 2022 +0700
+
+    Merge pull request #2 from PhamToanDoMath/patch-1
+    
+    Update gateway.py
+
+commit 06693a86104207849b1ee2a4d9f571d15c0385c4
+Merge: 347f5fd 8b80b69
+Author: Phạm Văn Minh Toàn <71207354+PhamToanDoMath@users.noreply.github.com>
+Date:   Mon Apr 25 00:26:46 2022 +0700
+
+    Merge pull request #1 from lgk1910/main
+    
+    Fetch upstream from main
+
+commit 347f5fd941c0d12f20aaf9453d3394983df23be0
+Author: PhamToanDoMath <71207354+PhamToanDoMath@users.noreply.github.com>
+Date:   Mon Apr 25 00:12:21 2022 +0700
+
+    Add submodule Flutter app
+
+commit 1ae065178f0a45c4b6bf92b0309eab08a8c2d8dc
+Author: PhamToanDoMath <71207354+PhamToanDoMath@users.noreply.github.com>
+Date:   Mon Apr 25 00:06:18 2022 +0700
+
+    Add arduino integrated with MQTT server
+
+commit 4f2043e7c70b71286517e1c5e1a52c194448787d
+Author: Phạm Văn Minh Toàn <71207354+PhamToanDoMath@users.noreply.github.com>
+Date:   Wed Apr 20 10:30:00 2022 +0700
+
+    Update gateway.py
+
+commit 8b80b6908da6b0f098de58213e35cef87bd552fb
+Author: NGUYEN LUAT GIA KHOI <xuongrongda1910@gmail.com>
+Date:   Tue Apr 12 11:01:23 2022 +0700
+
+    Update api
+
+commit ca967898d961df17ab94851eec30011f33d8f4c3
+Author: NGUYEN LUAT GIA KHOI <57819211+lgk1910@users.noreply.github.com>
+Date:   Tue Apr 12 10:54:33 2022 +0700
+
+    Update README.md
+
+commit 75fd02a0a46978414f9b1141ebbb8d8d1b27a51b
+Author: NGUYEN LUAT GIA KHOI <xuongrongda1910@gmail.com>
+Date:   Thu Mar 31 12:17:13 2022 +0700
+
+    Update ignore
+
+commit ab57fc5d3e6045ca9385389ca8bcd9619c3b45f6
+Author: NGUYEN LUAT GIA KHOI <xuongrongda1910@gmail.com>
+Date:   Thu Mar 31 12:15:52 2022 +0700
+
+    update gateway
+
+commit dd2c848e35206f4848f7ac248366114c83eeb900
+Author: Trinh Pham <phkhanhtrinh23@gmail.com>
+Date:   Thu Mar 31 11:40:14 2022 +0700
+
+    modify api.py
+
+commit 276c9cbcd71091196d738a8a610a55420fb128ce
+Author: Minh Huan <huanpham05@gmail.com>
+Date:   Sun Mar 27 09:33:24 2022 +0700
+
+    Update README.md
+
+commit 003c930478e6b4e0c0daa4814d0a83f9cd520a3a
+Merge: 81626b4 6801658
+Author: NGUYEN LUAT GIA KHOI <57819211+lgk1910@users.noreply.github.com>
+Date:   Sat Mar 26 10:49:27 2022 +0700
+
+    Merge pull request #1 from PhamToanDoMath/toan
+    
+    Create README.md
+
+commit 68016587439a3a744c867fdf8dbf6e613fa35612
+Author: PhamToanDoMath <71207354+PhamToanDoMath@users.noreply.github.com>
+Date:   Sat Mar 26 10:34:37 2022 +0700
+
+    Create README.md
+
+commit 81626b4e70b0bda37eb10a57f8ea1d87e7749dc6
+Author: NGUYEN LUAT GIA KHOI <xuongrongda1910@gmail.com>
+Date:   Fri Mar 25 16:30:22 2022 +0700
+
+    Add api and makecode
